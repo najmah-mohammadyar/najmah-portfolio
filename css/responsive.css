@@ -102,3 +102,26 @@
 
 }
 
+
+
+
+
+@media(max-width:992px) {
+
+    .testimonials-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media(max-width:600px) {
+
+    .testimonials-container {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-card {
+        padding: 25px;
+    }
+
+}
